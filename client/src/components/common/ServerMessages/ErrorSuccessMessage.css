@@ -1,0 +1,9 @@
+.errorMessage, .successMessage{
+    width: 400px;
+}
+
+@media (max-width: 575.98px) { 
+    .errorMessage, .successMessage{
+        width: 250px;
+    }
+}

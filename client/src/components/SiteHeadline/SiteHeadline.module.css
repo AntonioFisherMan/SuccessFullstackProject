@@ -1,0 +1,32 @@
+.headlineBlock{
+    font-weight: 300;
+    font-size: 50px;
+    color: #111111;
+    border-bottom:1px solid #111111;
+    width: 100px;
+    white-space: nowrap;
+    padding-bottom: 18px;
+    margin-top: 69px;
+}
+@media (max-width: 575.98px) { 
+    .headlineBlock{
+        font-size:35px;
+        width: unset;
+        white-space: normal;
+        margin-top: 19px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .headlineBlock{
+        font-size:40px;
+        white-space: normal;
+        width: 300px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-top: 29px;
+    }
+}
+
+

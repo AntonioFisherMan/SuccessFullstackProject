@@ -1,0 +1,5 @@
+{
+    "mongoURI":"mongodb+srv://toxa_k_9:zxcv123580@cluster0-k5f2o.mongodb.net/Shop?retryWrites=true&w=majority",
+    "jwtSecret":"sl_myJwtSecret"
+
+}

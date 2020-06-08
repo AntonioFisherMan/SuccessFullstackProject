@@ -1,0 +1,162 @@
+/********* SIGN FORM PAGE *************/
+
+.signBlock {
+    margin-top: 49px;
+    margin-bottom: 55px;
+}
+
+.signBlock input {
+    width: 340px;
+    height: 45px;
+    background: #F7F8FC;
+    border: 1px solid #E9ECF0;
+    box-sizing: border-box;
+}
+
+.signForm>.form-group {
+    margin-bottom: 21px !important;
+}
+
+.signHeadline {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 15px !important;
+    margin-top: 10px;
+}
+
+.custom-checkbox {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 250%;
+    color: #666666;
+}
+
+.custom-checkbox span {
+    color: #E77E83;
+    font-weight: 300;
+    margin-left: 5px;
+}
+
+.signPopUpBlock {
+    display: flex;
+    align-items: center;
+    padding-bottom: 29px;
+    padding-top: 35px;
+}
+
+.signPopUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7ECB80;
+    border-radius: 50%;
+    ;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.signPopUp p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.signPopUpBlock hr {
+    background: #707070 !important;
+    width: 118px;
+}
+
+.signPopUpBlock hr:first-child {
+    margin-right: 45px !important;
+}
+
+.signPopUpBlock hr:last-child {
+    margin-left: 45px !important;
+}
+
+#signBtn {
+    width: 180px;
+    height: 55px;
+    margin-top: 24px;
+    background: #E77E83;
+    font-weight: 600;
+    border-radius: 36px;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.signGrey, .forgotPass {
+    font-weight: normal;
+    font-size: 12px;
+    color: #707070;
+    margin-left: 20px !important;
+    display: flex;
+    align-items: center;
+}
+
+.fakeSign::after {
+    transform: translate(20%, -25%);
+}
+.signReturnBtn{
+    margin-top: 192px;
+}
+.signReturnBtn-active{
+    display: none;
+}
+
+@media (max-width: 575.98px) { 
+    .signForm{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .signBlock input{
+        width: 310px;
+    }
+    .signPopUpBlock hr{
+        width: 80px;
+    }
+    .signBlock{
+        margin-top: 10px;
+    }
+    .signReturnBtn{
+        display: none;
+    }
+    .signReturnBtn-active{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+  
+  
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .signForm{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .signReturnBtn-active{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .signReturnBtn{
+        display: none;
+    }
+}
+

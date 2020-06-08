@@ -1,0 +1,242 @@
+.dropdown-toggle::after {
+    font-family: FontAwesome;
+    content: "\f078" !important;
+    border: none !important;
+    font-size: 8px;
+}
+
+.linkBlock {
+    background: #E9ECF0;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+
+.linkItem {
+    display: flex;
+    align-items: center;
+}
+
+.linkItem p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #111111;
+    margin-right: 10px !important;
+}
+
+.linkBtn {
+    background: #7ECB80;
+    color: white;
+    border-radius: 3px;
+    width: 45px;
+    padding: 0 !important;
+}
+
+.sortBtn {
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    text-transform: uppercase;
+    color: #111111;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 150px;
+    word-wrap:break-word;
+}
+.catalog {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.catalogList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.productsFilter {
+    margin-top: 81px;
+}
+.sidebarText {
+    display: flex;
+    margin-bottom: 15px !important;
+    margin-top: 20px;
+}
+
+.sidebarText p {
+    margin-right: 14px !important;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.sidebarMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarMenu label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px !important;
+}
+
+.checkbox {
+    display: none;
+}
+
+.fake {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #E77E83;
+    width: 18px;
+    height: 18px;
+}
+
+.checkText {
+    padding-left: 11px;
+}
+
+.span {
+    color: #000000 !important;
+}
+
+.fake::after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    color: #7ECB80;
+    font-size: 14px;
+    position: absolute;
+    transform: translate(20%, -10%);
+    transition: .2s;
+    opacity: 0;
+}
+
+.checkbox:checked+.fake::after {
+    opacity: 1;
+}
+
+.productsBtn {
+    width: 164px;
+    height: 54px;
+    border: 1px solid #111111;
+    box-sizing: border-box;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsBtn button {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.sidebarItem {
+    padding-bottom: 30px;
+}
+
+.sidebarMenu label {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #666666;
+}
+
+.goodsItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.goodsItem img {
+    margin-top: 52px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.goodsItem h4 {
+    font-weight: normal;
+    font-size: 17px;
+    margin: 15px 0px 15px 0px !important;
+    color: #111111;
+}
+
+.goodsItem p {
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #E77E83;
+    margin-top: 15px;
+}
+
+.goodsItem h5 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    margin-top: 15px !important;
+}
+
+.goodsItem a {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+.filterBtn{
+    display: none;
+}
+
+
+@media (max-width: 575.98px) { 
+  
+    .filterBtn{
+        display: block;
+        margin: 0 auto;
+        background: #E77E83;
+        color:white;
+        padding: 5px 5px ;
+    }
+    .productsFilter {
+        margin-top: 11px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .sidebar-active{
+        position: absolute;
+        width:300px;
+        left: 0;
+        height: -300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #FFFAFA;
+        padding:20px 20px ;
+    }
+    .closeBtn{
+        position: absolute;
+        right:0;
+        margin: 0px 20px ;
+    }
+    .sortBtn {
+        width: 50px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .productsFilter {
+        margin-top: 11px;
+    }
+}

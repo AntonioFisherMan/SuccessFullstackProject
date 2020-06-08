@@ -1,0 +1,56 @@
+.productsPagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.pageLink{
+display: flex !important;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+border: 1px solid #111111 !important;
+border-radius: 50%;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+color: #111111 !important;
+margin:10px 10px;
+}
+.pageLink:hover{
+    border: 1px solid #E77E83 !important;
+    background: none !important;
+}
+.selectedPageLink{
+    display: flex !important;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+font-weight: bold;
+font-size: 14px;
+line-height: 150%;
+color: #E77E83 !important;
+margin:10px 10px;
+    border: 1px solid #E77E83 !important;
+    background: none !important;
+}
+.pageItem:last-child .page-link{
+    border-radius: 50% !important;
+}
+.pageItem:first-child .page-link{
+    border-radius: 50% !important;
+}
+
+
+@media (max-width: 575.98px) { 
+  
+    .pageLink, .selectedPageLink{
+        width: 40px;
+        height: 40px;
+        margin:5px 5px;
+        }
+}

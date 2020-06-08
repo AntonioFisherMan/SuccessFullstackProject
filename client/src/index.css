@@ -1,0 +1,83 @@
+
+body{
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  margin:0;
+  padding:0;
+}
+.error{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.error>div{
+  position: absolute;
+  top:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 150px;
+z-index: 2;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+ border-bottom:none !important;
+  text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0 ;
+  padding:0 ;
+}
+p{
+  margin:0 !important;
+  padding: 0;;
+ 
+}
+
+ul{
+  padding:0 !important;
+  margin: 0 !important;
+}
+button{
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+img {
+  max-width: 100%;
+  display: block !important;
+}
+hr{
+  margin: 0 !important;
+  border: 1px solid #EEEEEE !important; 
+}
+::placeholder, select {
+  font-weight: normal !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+}
+textarea::placeholder{
+  font-size: 15px;
+  line-height: 18px;
+  color: #707070 !important;
+}
+label{
+  margin:0 !important;
+}
+.returnLink{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+select{
+border: none;
+position: relative;
+outline: none;
+background: none;
+}

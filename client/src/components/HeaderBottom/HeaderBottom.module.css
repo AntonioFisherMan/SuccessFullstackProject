@@ -1,0 +1,42 @@
+/****** LINK BLOCK *****/
+.linkBlock{
+    display: flex;
+    align-items: center;
+        height: 51px;
+        background: #E9ECF0;
+}
+.linkInform{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.linkInform li{
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    color: #8A8984;
+    margin-left: 5px;
+}
+
+
+@media (max-width: 575.98px) { 
+    .linkBlock{
+        height: 100px;
+    }
+    .linkInform{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .linkBlock{
+        height: 100px;
+    }
+    .linkInform{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}

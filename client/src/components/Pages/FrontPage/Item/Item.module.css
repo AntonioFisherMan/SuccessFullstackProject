@@ -1,0 +1,32 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.item h4{
+    margin-top: 51px ;
+    font-weight: 600;
+    font-size: 20px;
+    color: #111111;
+}
+.item img{
+    height: 100px;
+}
+.item p{
+    margin-top: 24px !important;
+    font-weight: normal;
+    font-size: 16px;
+    color:#111111;
+}
+@media (max-width: 575.98px) { 
+    .item{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .item{
+        margin-top: 30px;
+    }
+}

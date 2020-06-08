@@ -1,0 +1,93 @@
+/********** orders PAGE *********/
+.ordersBlock{
+    display: flex;
+}
+.orders__text {
+    margin: 22px 0px 15px 0px !important;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000 !important;
+}
+
+.orders__price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.orders button {
+    margin-top: 51px;
+    margin-bottom: 6px;
+    width: 178px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.orders__btn p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 250%;
+    color: #666666;
+}
+
+.orders__photo {
+    border: 1px solid #EFEFEF !important;
+    width: 180px;
+    height: 225px;
+}
+.order>h6:first-child{
+    margin-top: 20px;
+}
+.orders__item {
+    margin-bottom: 29px;
+    padding-top: 12px;
+}
+
+.orders__item-active {
+    display: none !important;
+}
+
+.orders__item-active p {
+    font-size: 12px;
+}
+
+.orders__item:last-child {
+    border-top: 2px solid #E9EBF0;
+}
+
+.orders__return p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-left: 21px !important;
+}
+
+.orders__return {
+    margin: 28px 0px 42px 0px;
+}
+
+.numberOrder{
+   word-wrap:break-word;
+}
+
+@media (max-width: 575.98px) { 
+    .ordersBlock{
+        flex-direction: column;
+    }
+    .numberOrder{
+      
+        width:250px;
+     }
+     
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ordersBlock{
+        flex-direction: column;
+    }
+}

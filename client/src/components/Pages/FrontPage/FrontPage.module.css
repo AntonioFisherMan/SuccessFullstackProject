@@ -1,0 +1,163 @@
+/******* MAIN PAGE ********/
+.introBlock{
+    background-image: url("/images/Menu_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;  
+}
+.introText{
+    width: 567px;
+    height: 210px;
+   margin-top: 192px;
+   margin-left: auto;
+}
+.introText h1{
+font-weight: 200;
+font-size: 110px;
+line-height: 100px;
+color:white;
+}
+.introText span{
+    font-weight:200;
+    font-size: 61px;
+ }
+.introText p{
+    font-weight: 200;
+font-size: 21px;
+line-height: 30px;
+color:white;
+text-transform: lowercase;
+margin-bottom: 67px !important;
+}
+.introText a{
+    margin-right: auto;
+    background: white;
+}
+.introText button{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #111111;
+}
+         
+/**** WORKS BLOCK *****/
+
+.worksList{
+    margin-top: 88px;
+}
+.icon{
+    position: relative;
+    bottom:260px;
+    left:100%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7ECB80;
+    border-radius: 50%;;
+    width: 50px;
+    height: 50px;
+    color:white;
+}
+
+
+/***** STYLE BLOCK *****/
+
+.styleBtn{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 79px;
+}
+.slider{
+    margin-top: 52px;
+}
+.btnWidth{
+    margin-top: 20px;
+}
+.btnWidth a{
+    width: 100%;
+}
+
+/***** BENEFITS BLOCK******/
+
+.benefitsBlock h4{
+    margin-top: 70px !important;
+}
+.benefitsText{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 150%;
+     color: #111111;
+     margin-bottom: 75px;
+    margin-top: 20px;
+    text-align: center;
+}
+.benefitsBlock a{
+margin-top: 85px;
+}
+
+/****** GALLERY BLOCK******/
+
+.gallery__item img{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 225px !important;
+}
+.galleryText{
+font-weight: 300;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #111111;
+margin-top: 31px;
+margin-bottom: 74px;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .icon{
+        bottom: -10px;
+        left:44%;
+    } 
+    .introText{
+        width: unset;
+        text-align: center;
+        margin:0px;
+    }
+    .introText a{
+        margin: 0 auto;
+        margin-top: 51px;
+    }
+    .introText h1{
+        font-size: 55px;
+    }
+    .styleBtn{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 20px !important;
+    }
+    .galleryText{
+        margin-bottom: 20px;
+    }
+    .worksBlock a{
+        margin-top: 50px;
+    };
+   
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .styleBtn{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 20px !important;
+    }
+}

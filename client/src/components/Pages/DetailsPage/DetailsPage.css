@@ -1,0 +1,313 @@
+/****** DETAIL PAGE****/
+
+.buttonBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #111111;
+    border-radius: 36px;
+    width: 180px;
+    height: 50px;
+    color:black;
+}
+/*DETAILS BLOCK*/
+
+.styleBtn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 79px;
+}
+
+.detailsPhoto {
+    width: 421px;
+    height: 750px;
+}
+
+.detailsListSlogan {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #E77E83;
+}
+
+.detailsListText {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 7px !important;
+}
+
+.detailsListStars {
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+
+.detailsListStars p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+    margin-left: 21px !important;
+}
+
+.detailsItem-price-line {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #979797;
+}
+
+.detailsItem-price{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    margin-top: 5px !important;
+    padding-bottom: 15px;
+}
+
+.detailsInformList h6 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 21px !important;
+    color: #000000;
+    margin-bottom: 15px !important;
+}
+
+.detailsSize {
+    margin-left: 21px;
+}
+
+.detailsSize  p {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #979797;
+    margin-left: 8px !important;
+}
+
+.detailsBtn {
+    background: #F7F8FC;
+    border: 1px solid #E9ECF0;
+    width: 211px;
+height: 45px;
+}
+
+.detailsListStars {
+    display: flex;
+}
+
+.detailsInformListRental {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 21px !important;
+    margin-bottom: 14px !important;
+}
+
+.detailsInformListRentalBlock {
+    display: flex;
+    margin-left: 7px;
+}
+.detailsInformSizeBlock{
+    display: flex;
+    align-items:center
+}
+
+.detailsInformListRentalBlock p {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-left: 10px !important;
+}
+
+.detailsInformListDate {
+    display: flex;
+}
+
+.detailsInformListDate  p {
+    margin-bottom: 10px !important;
+}
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+    white-space: nowrap;
+}
+
+.detailsInformListDate input {
+    width: 182px;
+    height: 45px;
+    margin-right: 18px;
+    background: #F7F8FC;
+    border: 1px solid #E9ECF0;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.detailsInformListDateTextarea {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    color: #979797;
+    margin-top: 19px !important;
+    margin-bottom: 23px !important;
+   
+}
+.detailsInformListTextarea {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #676767;
+    margin-top: 20px !important;
+}
+
+
+/*REVIEW BLOCK*/
+.reviewBlock {
+    margin-top: 25px;
+}
+.reviewItem {
+    margin-top: 31px;
+}
+
+.reviewInform {
+    display: flex;
+    justify-content: flex-end;
+}
+.reviewImg {
+    margin-right: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewInform h5 {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+    margin-bottom: 2px;
+}
+.reviewInform p {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #E77E83;
+    margin-bottom: 10px !important;
+}
+.reviewList {
+    display: flex;
+}
+.reviewList li {
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+    margin-bottom: 22px;
+}
+.reviewCard {
+    padding-bottom: 45px;
+}
+.reviewCard p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #111111;
+}
+.reviewCard span {
+    font-weight: 700;
+}
+.stars {
+    display: flex;
+}
+
+.fa-star {
+    color: #E77E83;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#stars {
+    margin: 40px 0px 40px 0px;
+}
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+    .styleBtn {
+        display: none;
+    }
+    .reviewInform {
+        display: flex;
+        justify-content: center;
+        ;
+        margin-bottom: 20px;
+    }
+    .reviewCard p {
+        text-align: center;
+    }
+    .detailsInformListDate{
+        flex-direction: column;
+    }
+    .detailsPhoto {
+        height: 450px;
+    }
+    .detailsInformListDate input {
+         width: 100%; 
+    }
+    
+    .detailsInformSizeBlock{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .detailsSize{
+        margin:0;
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .styleBtn {
+        display: none;
+    }
+    .reviewInform{
+        display: flex;
+        justify-content:flex-start !important;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .reviewInform{
+        display: flex;
+        justify-content:flex-start !important;
+        margin-bottom: 20px;
+    }
+
+}

@@ -1,0 +1,217 @@
+/******* RETURN PAGE ********/
+
+.returnText {
+    margin-top: 50px;
+}
+
+.returnInform {
+    display: flex;
+}
+
+.returnInform-active {
+    display: none;
+}
+.returnText span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    color: #E77E83;
+}
+
+.returnText p {
+    font-size: 15px;
+}
+
+.returnLinks {
+    display: flex;
+    align-items: center;
+    background: #E9EBF0;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.returnLinks p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.returnItem {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.returnItem-active {
+    display: none;
+}
+
+.returnItem-column {
+    display: flex;
+}
+
+.returnItem-column img {
+    width: 20px;
+    height: 20px;
+    margin-top: 25px !important;
+}
+
+.returnItem-column p {
+    margin-top: 23px !important;
+    margin-left: 5px !important;
+}
+
+@media (max-width: 575.98px) {
+    .returnInform {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column
+    }
+    .returnItem {
+        display: none;
+    }
+    .returnText {
+        margin-left: 0 !important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .returnInform2 {
+        margin-left: 0 !important;
+    }
+    .returnLinks {
+        display: none;
+    }
+    .returnItem-active {
+        display: block !important;
+        background: #E9EBF0;
+        margin-top: 20px;
+    }
+    .returnInform-active {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .returnItem-active p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .returnInformItem-active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .returnItem-active p:first-child {
+        min-height: 180px;
+    }
+    .returnItem-active p:nth-child(2) {
+        min-height: 70px;
+    }
+    .returnItem-active p:nth-child(3) {
+        min-height: 50px;
+    }
+    .returnItem-active p:last-child {
+        min-height: 120px;
+    }
+    .returnInformItem-active {
+        min-height: 180px;
+    }
+    .returnInform-active p:nth-child(2) {
+        min-height: 30px;
+    }
+    .returnInform-active p:nth-child(3) {
+        min-height: 80px;
+    }
+    .returnItem-column {
+        min-height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .returnText {
+        margin-left: 0 !important;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .returnItem {
+        display: none;
+    }
+    .returnInform {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .returnInform2 {
+        margin-left: 0 !important;
+    }
+    .returnLinks {
+        display: none;
+    }
+    .returnItem-active {
+        display: block !important;
+        background: #E9EBF0;
+        margin-top: 20px;
+    }
+    .returnInform-active {
+        display: flex !important;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 20px;
+    }
+    .returnItem-active p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .returnInform-active p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .returnInformItem-active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .returnInform-active p p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .returnItem-active p:first-child {
+        min-height: 180px;
+    }
+    .returnItem-active p:nth-child(2) {
+        min-height: 70px;
+    }
+    .returnItem-active p:nth-child(3) {
+        min-height: 50px;
+    }
+    .returnItem-active p:last-child {
+        min-height: 120px;
+    }
+    .returnInformItem-active {
+        min-height: 180px;
+    }
+    .returnInform-active p:nth-child(2) {
+        min-height: 70px;
+    }
+    .returnInform-active p:nth-child(3) {
+        min-height: 50px;
+    }
+    .returnItem-column {
+        min-height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

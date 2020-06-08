@@ -1,0 +1,107 @@
+/******* FEEADBACK PAGE *******/
+
+.feedbackInform {
+    display: flex;
+}
+
+.feedbackItemImg {
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    width: 180px;
+    height: 225px;
+}
+.feedbackList {
+    margin-top: 40px;
+}
+
+.feedbackItem {
+    margin-top: 30px;
+}
+.feedbackItemGrey {
+    font-size: 12px;
+    line-height: 150%;
+    color: #707070;
+    margin-top: 15px !important;
+    margin-bottom: 110px !important;
+}
+
+.feedbackItemColumn2>.stars {
+    margin-top: 20px;
+}
+.feedbackItemColumn2 img{
+ position: absolute;
+ right:0px
+}
+.feedbackItemText {
+    margin-top: 20px !important;
+}
+
+.feedbackForm {
+    display: flex;
+    margin-top: 10px;
+}
+#feedbackForm2-textarea{
+  width:250px;
+  height:165px !important;
+  margin-bottom: 30px;
+}
+.formBtn{
+    margin-bottom: 30px;
+}
+.feedbackFormSubmit{
+    display: block;
+}
+.feedbackItem-active, .feedbackList-active{
+    display: none;
+}
+
+@media (max-width: 575.98px) { 
+    .feedbackList, .feedbackItem{
+        display: none;
+    }
+   .feedbackInform{
+       display: block;
+   }
+   .feedbackItem-active, .feedbackList-active{
+       display: flex;
+   }
+   .feedbackForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+   }
+   .feedbackItemGrey{
+       margin:0px;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .feedbackList, .feedbackItem{
+        display: none;
+    }
+    .feedbackInform{  
+        display: block;
+    }
+    .feedbackList-active, .feedbackItem-active{
+        display: flex;
+    }
+    .feedbackForm{
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+     align-items: center;
+    }
+    .feedbackItemGrey{
+        margin:0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .feedbackForm{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+       }
+}

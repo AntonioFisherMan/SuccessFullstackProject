@@ -1,0 +1,211 @@
+.cardLink{
+    height: 45px;
+    background: #E9EBF0;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardLink p{
+    font-weight: normal;
+font-size: 15px !important;
+color: #000000;
+}
+.cardBlock{
+    margin-bottom: 32px;
+    margin-top: 30px;
+}
+.cardItem{
+    border-bottom: 0.2px solid #979797;
+    padding-top: 10px;
+}
+.cardActive{
+    display: none;
+}
+.card p{
+    font-weight: normal;
+font-size: 15px !important;
+line-height: 18px;
+color: #000000;
+}
+.cardPhoto{
+border: 1px solid #EFEFEF;
+box-sizing: border-box;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+width: 285px;
+height: 345px;
+margin-bottom: 32px;
+}
+.cardSlogan{
+font-size: 10px !important;
+line-height: 12px !important;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #E77E83 !important;
+margin-bottom: 7px !important;
+}
+.cardList{
+    display: flex;
+    justify-content: space-between;
+}
+.cardPrice{
+   
+font-size: 17px;
+line-height: 21px !important;
+color: #111111 !important;
+
+}
+.cardSize p
+{
+    margin-right: 8px !important;
+   
+}
+.cardText{
+    margin-bottom: 11px !important;
+}
+.increase, .decrease{
+ color:#E77E83;
+}
+.cardDiscount{
+    display: flex;
+    margin-top: 33px;
+}
+.cardDiscount img{
+    margin-right: 17px;
+}
+.cardDiscount span{
+    font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #E77E83;
+}
+.cardTextGrey{
+    font-weight: normal;
+font-size: 14px !important;
+line-height: 150% !important;
+color: #979797 !important;
+}
+
+.cardExtraText{
+    display: flex;
+    align-items: center;
+    padding:25px 20px;
+    background: #F7F8FC;
+    margin-top: 28px;
+}
+.starSmall {
+    color:#E77E83;
+    
+}
+.cardExtraText p{
+    font-weight: normal;
+font-size: 15px;
+line-height: 200%;
+color: #000000;
+margin-left: 45px !important;
+
+}
+.cardInform{
+    margin-top: 36px;
+}
+.cardInformListText p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #E77E83;
+    margin-left: 21px !important;
+}
+.cardInformListText{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.cardInformListText h5{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    margin-bottom: 23px;
+}
+.cardInformListText p{
+    font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #979797;
+margin-top: 20px !important;
+}
+.cardInformListText span{
+    color: #E77E83;
+}
+
+
+@media (max-width: 575.98px) { 
+    .cardLink, .cardItem{
+        display: none;
+    }
+  
+    .cardList{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cardText, .cardInformText {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        margin-left: 10px;
+        flex-direction: column;
+    }
+    .cardInformListText{
+        align-items: center;
+    }
+    .cardInformList{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cardInformText p{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .cardActive{
+        font-size: 12px !important;
+        display: flex !important;
+    }
+    .cardLinkActive{
+        display: block !important;
+        background: #E9EBF0;
+        margin-top: 20px;
+    }
+    .cardLinkActive p:first-child{
+        min-height: 230px;
+    }
+    .cardLinkActive p:last-child{
+        min-height: 50px;
+    }
+    .cardLinkActive p:nth-child(2){
+        min-height: 50px;
+    }
+    .cardLinkActive p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .cardPhotoActive{
+        border: 1px solid #EFEFEF !important;
+        width: 180px;
+        height: 225px;
+    }
+    .cardActiveInform{
+        min-height: 230px;
+    }
+    .cardPrice{
+        min-height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+}
+
+
+
+

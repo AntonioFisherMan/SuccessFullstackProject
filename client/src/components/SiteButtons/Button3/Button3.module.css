@@ -1,0 +1,12 @@
+.button{
+    display: flex;
+}
+.button p{
+    font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #000000;
+margin-left: 21px !important;
+}

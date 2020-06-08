@@ -1,0 +1,17 @@
+
+/****** HELP PAGE ******/
+.helpText{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 15px !important;
+    margin-top: 21px !important;
+}
+.helpBlock textarea{
+    height: 195px !important;
+}
+.helpInform a{
+    margin-top: 50px;
+}
+
